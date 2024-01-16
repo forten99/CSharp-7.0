@@ -1,37 +1,15 @@
-*.swp
-*.*~
-project.lock.json
-.DS_Store
-*.pyc
-nupkg/
-
-# Visual Studio Code
-.vscode
-
-# Rider
-.idea
-
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-build/
-bld/
-[Bb]in/
-[Oo]bj/
-[Oo]ut/
-msbuild.log
-msbuild.err
-msbuild.wrn
-
-# Visual Studio 2015
-.vs/
+*.vsidx
+C# 7.0/.vs/C# 7.0/v17/.suo
+*.pdb
+C# 7.0/BoxUnBoxEx/bin/Debug/
+C# 7.0/BoxUnBoxEx/obj/Debug/
+C# 7.0/NullableTypeEx/bin/Debug/
+C# 7.0/NullableTypeEx/obj/Debug/
+C# 7.0/ValueRefTypeEx/bin/Debug/ValueRefTypeEx.exe.config
+C# 7.0/ValueRefTypeEx/obj/Debug/
+DataTypeEx/bin/Debug/
+DataTypeEx/obj/Debug/
+HelloPrj/bin/
+HelloPrj/obj/
+교안 및 소스/
+HelloPrj/.vs/
