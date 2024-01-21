@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_OperatorEx3", "OperatorE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_OperatorEx4", "OperatorEx4\14_OperatorEx4.csproj", "{C245876B-DDB7-4A43-8FDA-77227978FDF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_IfElseEx", "16_IfElseEx\16_IfElseEx.csproj", "{6BF578C6-78B6-4D10-BD98-81E5543B3698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_SwitchEx", "16_SwitchEx\16_SwitchEx.csproj", "{276E354B-AB52-4951-98E4-FED8134057E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{C245876B-DDB7-4A43-8FDA-77227978FDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C245876B-DDB7-4A43-8FDA-77227978FDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C245876B-DDB7-4A43-8FDA-77227978FDF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF578C6-78B6-4D10-BD98-81E5543B3698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF578C6-78B6-4D10-BD98-81E5543B3698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF578C6-78B6-4D10-BD98-81E5543B3698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF578C6-78B6-4D10-BD98-81E5543B3698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276E354B-AB52-4951-98E4-FED8134057E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276E354B-AB52-4951-98E4-FED8134057E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276E354B-AB52-4951-98E4-FED8134057E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276E354B-AB52-4951-98E4-FED8134057E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

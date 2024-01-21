@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,8 +22,34 @@ namespace OperatorEx4
             //Console.WriteLine("{0:C}", a );
             int a = 1;
             Console.WriteLine("{0:D3} 0x{0:X8}", a);
+            Console.WriteLine("{0:D3} 0x{0:X8}", a << 1);
             Console.WriteLine("{0:D3} 0x{0:X8}", a << 5);
-            
+
+            int b = 255;
+            Console.WriteLine("{0:D3} 0x{0:X8}", b);
+            Console.WriteLine("{0:D3} 0x{0:X8}", b >> 1);
+            Console.WriteLine("{0:D3} 0x{0:X8}", b >> 2);
+            Console.WriteLine("{0:D3} 0x{0:X8}", b >> 3);
+            Console.WriteLine("{0:D3} 0x{0:X8}", b >> 4);
+            Console.WriteLine("{0:D3} 0x{0:X8}", b >> 5);
+            Console.WriteLine("{0:D3} 0x{0:X8}", b >> 6);
+            Console.WriteLine("{0:D3} 0x{0:X8}", b >> 7);
+            Console.WriteLine("{0:D3} 0x{0:X8}", b >> 8);
+
+            int c = -255;
+            Console.WriteLine("{0:D3} 0x{0:X8}", c);
+            Console.WriteLine("{0:D3} 0x{0:X8}", c>>1);
+
+            int x = 9;
+            int y = 10;
+            Console.WriteLine(x & y);
+            Console.WriteLine(x | y);
+            Console.WriteLine(x ^ y);
+
+            // ~ : 보수 연산자(1, 0을 서로 뒤바꾸는 연산자)
+            int xx = 255;
+            Console.WriteLine("{0:D3} 0x{0:X8}", xx);
+            Console.WriteLine("{0:D3} 0x{0:X8}", ~xx);
         }
     }
 }
