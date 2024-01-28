@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_1_OverloadingEx", "Overl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_2_DefaultParameterEx", "DefaultParameterEx\23_2_DefaultParameterEx.csproj", "{BEDEFC52-63BF-487F-98E0-2D706C828750}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24_LocalFunEx", "LocalFunEx\24_LocalFunEx.csproj", "{F2A41DF9-DDC2-4340-90AE-A8178CEDB68B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_ClassEx", "ClassEx\25_ClassEx.csproj", "{74462A09-7F74-40A4-83D0-A6E107F57D06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{BEDEFC52-63BF-487F-98E0-2D706C828750}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEDEFC52-63BF-487F-98E0-2D706C828750}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEDEFC52-63BF-487F-98E0-2D706C828750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A41DF9-DDC2-4340-90AE-A8178CEDB68B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A41DF9-DDC2-4340-90AE-A8178CEDB68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A41DF9-DDC2-4340-90AE-A8178CEDB68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A41DF9-DDC2-4340-90AE-A8178CEDB68B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74462A09-7F74-40A4-83D0-A6E107F57D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74462A09-7F74-40A4-83D0-A6E107F57D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74462A09-7F74-40A4-83D0-A6E107F57D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74462A09-7F74-40A4-83D0-A6E107F57D06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
